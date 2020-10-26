@@ -1,0 +1,144 @@
+body{
+    background-color: #3c3449;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 700px;
+    border-radius: 8px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile{
+    height: 170px;
+    width: 160px;
+    border: solid;
+    border-color: rgb(99, 195, 155);
+    border-radius: 50%
+}
+
+p{
+    font-size: 20px;
+}
+
+#intro{
+    font-size: 30px;
+}
+
+/* li{
+    list-style: none;
+    font-size: 22px;
+    display: inline;
+    margin: 20px;
+}
+
+a{
+    color: #ffffff;
+    
+} */
+
+.fa{
+    margin: 20px;
+}
+
+#linkedin{
+    color: #0E76A8;
+}
+
+#github{
+    color: black;
+}
+
+#twitter{
+    color: #00ACEE;
+}
+
+a{
+    background-color: #ffffff;
+    color: white;
+}
+
+.academics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.education{
+    height: 180px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+.project{
+    height: 220px;
+    width: 400px;
+    background-color: #f2f2f2;
+    border: solid 1.5px;
+    margin: 10px;
+}
+
+
+.project p{
+    font-size: 16px;
+}
+
+
+
+/* .link{
+    background-color: lightgreen;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 15px;
+} */
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+i:hover{
+    transition: .2s;
+    transform: scale(1.5);
+
+}
+
+
+footer{
+    color: #ffffff;
+    
+}
+
+@media screen and (max-width:600px){
+    .card{
+        width: auto;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project{
+        width: auto;
+    }
+    .academics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .education{
+        width: auto;
+    }
+    i:hover{
+        transition: none;
+        transform: none;
+    }
+}
