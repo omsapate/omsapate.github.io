@@ -153,4 +153,9 @@ footer{
         transition: none;
         transform: none;
     }
+    
+    .skills{
+        display:flex;
+        flex-direction:column;
+    }
 }
