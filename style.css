@@ -30,6 +30,10 @@ p{
     font-size: 30px;
 }
 
+#aboutMe br{
+    display: none;
+}
+
 /* li{
     list-style: none;
     font-size: 22px;
@@ -136,6 +140,9 @@ footer{
 
     #aboutMe p{
         text-align: left ;
+    }
+    #aboutMe br{
+        display: block;
     }
     .projects{
         display: flex;
